@@ -1,5 +1,6 @@
 # Proyecto EV01 - GitFlow y DevOps básico
 
+
 ## 📌 Descripción
 Este repositorio demuestra el uso de control de versiones con Git, trabajo colaborativo y automatización básica siguiendo el modelo GitFlow.
 
@@ -65,3 +66,6 @@ El repositorio contiene:
 - Al menos 1 hotfix
 - Pull Requests realizados
 - Flujo GitFlow aplicado correctamente
+
+cambio main fix
+
