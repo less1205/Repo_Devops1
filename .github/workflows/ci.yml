@@ -1,3 +1,4 @@
+
 name: CI - EP1 Demo
 
 on:
@@ -18,3 +19,19 @@ jobs:
       - run: date
       - run: cat README.md
       - run: echo "Workflow ejecutado correctamente”
+
+name: CI DevOps Basico
+on: 
+  push:
+    branches: [ main, develop ]
+
+jobs:
+  job_exitoso:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del codigo
+        uses: actions/checkout@v4
+
+      - name: Mensaje de exito
+        run: echo "¡La automatización de DevOps funciona perfectamente!"
+
